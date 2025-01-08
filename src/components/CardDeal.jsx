@@ -6,15 +6,15 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+      Our mission is to provide <br className="sm:block hidden" />strong platform with
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      wide range of services to meet our clients' needs. Our services include CERT-In compliance, specialized security audits, and more. We are also certified as ISO 9001 and CMMI 3.
       </p>
 
-      <Button styles={`mt-10`} />
+      <a href="https://wa.me/918811080713" target="_blank" rel="noopener noreferrer">
+        <Button styles={`mt-10`} />
+      </a>
     </div>
 
     <div className={layout.sectionImg}>

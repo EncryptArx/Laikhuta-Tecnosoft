@@ -7,15 +7,16 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Services",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
+  
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "clients",
+    title: "Contact Us",
   },
 ];
 
@@ -23,23 +24,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "ISMS Audits & Compliance",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Detailed assessments of Information Security Management Systems, and ISO 27001-2022 assessments to ensure compliance with the latest standards.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Cyber Crisis Management Plan (CCMP)",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Customized strategies to manage cyber threats and protect our clients' digital assets and reputation.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "MEITY Hyperscale and GCC cloud services",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Advanced solutions designed for modern businesses, focusing on scalability, security, and reliability.",
   },
 ];
 
@@ -73,85 +74,80 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Trusted Cliant",
+    value: "15+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "10+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Audits",
+    value: "₹230k+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Industries We Serve",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Government",
+        link: "https://www.india.gov.in/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Corporate Enterprises",
+        link: "https://startup.assam.gov.in/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Startups",
+        link: "https://startup.assam.gov.in/",
+      },
+      
+    ],
+  },
+  {
+    title: "Solutions",
+    links: [
+      {
+        name: "Sustainable Architecture",
+        link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Security & Compliance",
+        link: "https://www.hoobank.com/become-a-partner/",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Cloud Deployment",
+        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Resources",
     links: [
       {
         name: "Help Center",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Case Studies",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Whitepapers",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "FAQs",
         link: "https://www.hoobank.com/blog/",
       },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  
 ];
 
 export const socialMedia = [
